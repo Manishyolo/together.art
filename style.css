@@ -165,6 +165,79 @@ main {
   display: none;
 }
 
+.page-2 {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+.page-2 .para {
+  width: 95%;
+}
+.page-2 .para h2 {
+  font-family: "ttcommon";
+  font-size: 2.37rem;
+}
+.page-2 .para h2 span:nth-child(1) {
+  color: #FF6375;
+}
+.page-2 .para h2 span:nth-child(2) {
+  color: #FDA801;
+}
+.page-2 .para h2 span:nth-child(3) {
+  color: #01BFC5;
+}
+.page-2 .gallery-wrapper {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  gap: 1rem;
+}
+.page-2 .gallery-wrapper .box:nth-child(1) {
+  background-color: #FC8EAE;
+}
+.page-2 .gallery-wrapper .box {
+  width: 20rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+.page-2 .gallery-wrapper .box img:nth-child(1) {
+  position: absolute;
+}
+.page-2 .gallery-wrapper .box img {
+  width: 100%;
+  transform: scale(1.1);
+}
+.page-2 .gallery-wrapper .box .img-2 {
+  width: 100%;
+  transform: scale(1);
+}
+.page-2 .gallery-wrapper .box-3 {
+  width: 20rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #01BFC5;
+  border-radius: 0.8rem;
+}
+.page-2 .gallery-wrapper .box-3 img:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+}
+.page-2 .gallery-wrapper .box-3 img {
+  width: 100%;
+  transform: scale(1.1);
+}
+.page-2 .gallery-wrapper .box-3 .img-2 {
+  width: 100%;
+  transform: scale(1);
+}
+
 @media (min-width: 900px) {
   .page-1 {
     width: 100%;
